@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SOC Case Studies | Naveen Pachangi</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <h1>SOC Case Studies</h1>
+  <p>
+    Below are selected real-world security incidents and investigations
+    that I have handled as part of SOC operations.
+  </p>
+
+  <hr>
+
+  <h3>Brute Force Authentication Attack – Windows Active Directory</h3>
+  <p><strong>Context:</strong> Multiple failed login attempts followed by a successful authentication on a critical server.</p>
+
+  <p><strong>My Role:</strong> SOC Analyst – Investigation & Response</p>
+
+  <p><strong>Actions Taken:</strong></p>
+  <ul>
+    <li>Analyzed Windows Event IDs 4625 and 4624 to identify attack pattern</li>
+    <li>Correlated source IP behavior and login timestamps</li>
+    <li>Checked endpoint activity using EDR telemetry</li>
+    <li>Validated IP reputation using OSINT sources</li>
+    <li>Recommended account reset, MFA enforcement, and IOC blocking</li>
+  </ul>
+
+  <p><strong>Outcome:</strong> Account secured, attack contained, detection rule improved.</p>
+
+  <hr>
+
+  <h3>Suspicious PowerShell Execution – Encoded Command</h3>
+  <p><strong>Context:</strong> Alert triggered for encoded PowerShell execution originating from an Outlook process chain.</p>
+
+  <p><strong>My Role:</strong> SOC Analyst – Threat Analysis</p>
+
+  <p><strong>Actions Taken:</strong></p>
+  <ul>
+    <li>Reviewed EDR process tree and command-line arguments</li>
+    <li>Identified Base64-encoded PowerShell execution</li>
+    <li>Checked persistence mechanisms and scheduled tasks</li>
+    <li>Isolated endpoint and collected forensic artifacts</li>
+  </ul>
+
+  <p><strong>Outcome:</strong> Endpoint secured, no lateral movement observed, controls hardened.</p>
+
+  <hr>
+
+  <h3>Malware Detection & Endpoint Containment</h3>
+  <p><strong>Context:</strong> Endpoint security alert indicating suspicious executable behavior.</p>
+
+  <p><strong>My Role:</strong> SOC Analyst – Incident Handling</p>
+
+  <p><strong>Actions Taken:</strong></p>
+  <ul>
+    <li>Analyzed malware behavior via EDR telemetry</li>
+    <li>Checked file hash and execution context</li>
+    <li>Performed endpoint isolation and quarantine</li>
+    <li>Verified removal of persistence artifacts</li>
+  </ul>
+
+  <p><strong>Outcome:</strong> Malware eradicated, system restored to secure state.</p>
+
+  <p>
+    <a href="index.html">← Back to Home</a>
+  </p>
+
+</body>
+</html>
