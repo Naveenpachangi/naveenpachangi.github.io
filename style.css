@@ -53,18 +53,3 @@ nav a {
   border-radius: 50%;
   border: 3px solid #fff;
 }
-.header {
-  background-image: url('cover.jpg');
-  background-size: cover;
-  background-position: center;
-  padding: 40px;
-  border-radius: 8px;
-  margin-bottom: 30px;
-}
-
-.profile-pic {
-  width: 140px;
-  height: 140px;
-  border-radius: 50%;
-  border: 3px solid #fff;
-}
