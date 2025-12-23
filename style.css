@@ -43,14 +43,14 @@ nav a {
 .header {
   width: 100%;
   height: 260px;
-  background-image: url("Cover photo.jfif");
-  background-repeat: no-repeat;
+  background-image: url("cover.jpg");
   background-size: cover;
   background-position: center;
   border-radius: 10px;
   position: relative;
   margin-bottom: 90px;
 }
+
 
 /* Profile wrapper */
 .profile-wrapper {
